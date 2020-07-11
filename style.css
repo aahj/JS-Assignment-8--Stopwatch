@@ -1,0 +1,47 @@
+body {
+    background-color: black !important;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 4.3em !important;
+    color: black !important;
+    padding: 0 15px;
+}
+
+#main {
+    margin: 0 auto;
+    width: 700px;
+    padding-top: 150px;
+    
+}
+
+.box {
+    background-color: #f8f9fa;
+    color: #fff;
+    padding: 55px 0;
+    border-radius: 13%;
+    margin-bottom: 35px;
+    
+}
+
+.colon {
+    color: black !important;
+}
+
+p {
+    display: inline-block;    
+    color: blue !important;
+    padding: 0 18px;
+}
+.btn{
+    margin: 10px 0;
+    padding: 10px 30px !important;
+}
+.buttons{    
+    padding: 45px 0;
+    display: block;
+    width: 200px;
+}

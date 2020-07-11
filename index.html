@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <section id="main">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="box">      
+                        <div>
+                            <h1 class="shadow-lg p-3 mb-5 bg-white rounded" id="minutes" >0</h1>
+                            <h1 class="colon">:</h1>
+                            <h1 class="shadow-lg p-3 mb-5 bg-white rounded" id="seconds">0</h1>
+                            <h1 class="colon">:</h1>
+                            <h1 class="shadow-lg p-3 mb-5 bg-white rounded" id="milliseconds">0</h1>
+                        </div>                              
+                            <div>
+                                <p>Minutes</p>
+                                <p>Seconds</p>
+                                <p>Milliseconds</p>
+                            </div>                    
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="buttons">
+                        <button type="button" class="btn btn-outline-light" onclick="start()" id="start">START</button>
+                        <br>
+                        <button type="button" class="btn btn-outline-light" onclick="reset()">RESET</button>
+                        <br>
+                        <button type="button" class="btn btn-outline-light" onclick="stop()">STOP</button>
+                    </div>        
+                </div>
+            </div>                        
+        </div>
+    </section>
+
+
+    <script src="bootstrap-4.2.1-dist/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+    
+</body>
+<script src="app.js"></script>
+</html>
